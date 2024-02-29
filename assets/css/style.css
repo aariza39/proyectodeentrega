@@ -1,3 +1,4 @@
+
 body {
     background-image: url("../img/img3.jpg");
     background-size: cover;
@@ -17,7 +18,7 @@ body {
   
   .form-register {
     width: 400px;
-    background: #a52a2a;
+    background: #10d489;
     padding: 30px;
     margin: auto;
     margin-top: 100px;
@@ -25,6 +26,7 @@ body {
     font-family: 'calibri';
     color: white;
     box-shadow: 7px 13px 37px #000;
+    text-align: center;
   }
   
   
@@ -67,7 +69,7 @@ body {
   header{
     display: flex;
     height: 70px;
-    background-color: #a52a2a;
+    background-color: #10d489;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
@@ -82,6 +84,17 @@ body {
   .logo img{
     height: 75px;
     margin-right: 10px;
+  }
+
+
+  .form-box {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    border: 1px solid #10d489;
+    text-align: center;
+    flex-direction:column 
   }
   
   ul {
@@ -104,7 +117,7 @@ body {
   }
   
   li a:hover {
-    background-color: #de644b;
+    background-color: #18cc5d;
   }
   
   .activo {
@@ -119,6 +132,9 @@ body {
     margin-top: 1rem;
     padding: 32px 16px;
     border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
     text-align: center;
+    flex-direction:column;
   }
   
